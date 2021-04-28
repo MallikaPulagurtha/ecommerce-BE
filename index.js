@@ -219,3 +219,5 @@ app.put("/delitem/:id", async (req, res) => {
         console.log(error);
     }
 });
+
+app.listen(process.env.PORT || 3004);
